@@ -3,7 +3,7 @@ This repository contains the firmware, datasets, and attestation codes used in o
 
 The dataset is accessible on IEEE Dataport: [`IoT Swarm SRAM Dataset for Firmware Attestation`](https://dx.doi.org/10.21227/gmee-vj41). 
 
-If you would like to use our work in your research, kindly cite our preprint and dataset using their respective BibTex:
+If you would like to use our work in your research, kindly cite our preprint and dataset using their respective BibTeX:
 
 `Preprint`
 
