@@ -5,7 +5,7 @@ Our dataset is available on IEEE Dataport - [`IoT Swarm SRAM Dataset for Firmwar
 
 If you would like to use our research in your work, kindly cite our preprint and dataset using the following BibTex:
 
-`Preprint`\
+`Preprint`
 
 `Dataset`
 
