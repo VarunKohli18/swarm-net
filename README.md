@@ -3,7 +3,7 @@ This repository contains the firmware, datasets, and attestation codes used in t
 
 If you would like to use our work in your research, kindly cite it using the following BibTex:
 
-`Preprint`\\
+`Preprint`\
 `Dataset`
 
 
