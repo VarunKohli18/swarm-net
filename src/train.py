@@ -107,7 +107,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_name", type=str, required=True, help="Name of the dataset file", choices=["swarm1", "swarm2"])
     parser.add_argument("--device", type=int, default=-1, help="GPU id for training, pass -1 for cpu")
     parser.add_argument("--epochs", type=int, default=200, help="Number of training epochs")
-    parser.add_argument("--layer_type", type=str, default="TransformerConv", help="GNN inner layer, should be a valid torch_geometric.nn layer")
+    parser.add_argument("--layer_type", type=str, default="TransformerConv", help="GNN inner layer, should be a valid torch_geometric.nn layer (Validated layers: GCNConv, GATConv, TransformerConv)")
     parser.add_argument("--latent", type=int, default=64, help="GNN inner layer latent dim")
     parser.add_argument("--dropout", type=float, default=0.1, help="GNN dropout")
     parser.add_argument("--lr", type=float, default=5e-3, help="Learning rate")
@@ -116,6 +116,12 @@ if __name__ == "__main__":
     parser.add_argument("--runs", type=int, help="Number of runs to average performance over", default=1)
     parser.add_argument("--no_save", action="store_true", help="Do not save results table")
     args = parser.parse_args()
+
+    try:
+        layer = getattr(gnn, args.layer_type)
+    except AttributeError as e:
+        print(f"Invalid layer type: {args.layer_type}, Please pass a valid torch_geometric.nn layer (Validated layers: GCNConv, GATConv, TransformerConv)")
+        exit(0)
 
     print("Running with args:", args)
 
