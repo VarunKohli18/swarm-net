@@ -100,7 +100,7 @@ def get_thresholds(model, data, num_nodes):
 
 if __name__ == "__main__":
 
-    # example script usage: python src/train.py --dataset_name swarm1 --device 0 --epochs 200 --latent 64 --dropout 0.5 --lr 5e-3 --noise 0.4 --runs 20 --layer_type TransformerConv
+    # example script usage: python train.py --dataset_name swarm1 --device 0 --epochs 200 --latent 64 --dropout 0.5 --lr 5e-3 --noise 0.4 --runs 20 --layer_type TransformerConv
 
 
     parser = argparse.ArgumentParser()
