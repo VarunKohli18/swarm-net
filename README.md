@@ -7,5 +7,7 @@ If you would like to use this work, kindly cite our preprint and dataset using t
 
 `Dataset`
 
+Before running the attestation code, extract `swarm-1.pkl` and `swarm-2.pkl` from `swarm-sram-data.zip` into ./data/. 
+
 
 
