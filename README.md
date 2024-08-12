@@ -25,7 +25,7 @@ The IoT device firmware for `swarm-1` and `swarm-2` are available in `./firmware
 `read_memory.ipynb` and `library.py` are used for data collection. They require a physical IoT swarm setup to run. 
 
 ## Data
-The compiled dataset is stored in `./data/swarm-sram-data.zip` and available on IEEE Dataport.\
+The compiled dataset is stored in `./data/swarm-sram-data.zip` and available on IEEE Dataport. Kindly refer to our preprint for more information on the dataset.\
 Before running the attestation code, extract `swarm-1.pkl` and `swarm-2.pkl` from `swarm-sram-data.zip` into `./data`. 
 
 ## Attestation
