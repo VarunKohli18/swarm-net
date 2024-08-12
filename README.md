@@ -7,8 +7,7 @@ If you would like to use this work, kindly cite our preprint and dataset using t
 
 `Dataset`
 
-```
-
+```\
 @data{gmee-vj41-24,
   doi = {10.21227/gmee-vj41},
   url = {https://dx.doi.org/10.21227/gmee-vj41},
