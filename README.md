@@ -29,7 +29,7 @@ The compiled dataset is stored in `./data/swarm-sram-data.zip` and available on 
 
 ## Attestation
 
-The Swarm-Net script, `train.py`, is stored in `./src`. It trains the selected GNN architecture and saves its results on data from `swarm-1` and `swarm-2` into an Excel sheet.
+The Swarm-Net script, `./src/train.py`, trains the selected GNN architecture and saves its results on data from `swarm-1` and `swarm-2` into an Excel sheet.
 
 Example script usage: `python train.py --dataset_name swarm1 --device 0 --epochs 200 --latent 64 --dropout 0.5 --lr 5e-3 --noise 0.4 --runs 20 --layer_type TransformerConv`
 
