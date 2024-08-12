@@ -30,7 +30,7 @@ Before running the attestation code, extract `swarm-1.pkl` and `swarm-2.pkl` fro
 
 ## Attestation
 
-The Swarm-Net script is in the `./src` folder. `train.py` trains the selected GNN architecture and saves its results on `swarm-1` and `swarm-2` into an Excel sheet.
+The Swarm-Net script is stored in `./src`. The `train.py` script trains the selected GNN architecture and saves its results on `swarm-1` and `swarm-2` into an Excel sheet.
 
 Example script usage: `python train.py --dataset_name swarm1 --device 0 --epochs 200 --latent 64 --dropout 0.5 --lr 5e-3 --noise 0.4 --runs 20 --layer_type TransformerConv`
 
