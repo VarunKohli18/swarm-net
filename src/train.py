@@ -79,7 +79,7 @@ class GraphModel(torch.nn.Module):
 
 def get_indices(data, num_nodes):
     """
-    returns a list of indices for each node type (0-3 or 0-5 for swarm1 and swarm2)
+    returns a list of indices for each node type (0-3 or 0-5 for swarm-1 and swarm-2)
     used for computing thresholds and detection rates for each node
     """
     ld = len(data)
@@ -100,11 +100,11 @@ def get_thresholds(model, data, num_nodes):
 
 if __name__ == "__main__":
 
-    # example script usage: python train.py --dataset_name swarm1 --device 0 --epochs 200 --latent 64 --dropout 0.5 --lr 5e-3 --noise 0.4 --runs 20 --layer_type TransformerConv
+    # example script usage: python train.py --dataset_name swarm-1 --device 0 --epochs 200 --latent 64 --dropout 0.5 --lr 5e-3 --noise 0.4 --runs 20 --layer_type TransformerConv
 
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset_name", type=str, required=True, help="Name of the dataset file", choices=["swarm1", "swarm2"])
+    parser.add_argument("--dataset_name", type=str, required=True, help="Name of the dataset file", choices=["swarm-1", "swarm-2"])
     parser.add_argument("--device", type=int, default=-1, help="GPU id for training, pass -1 for cpu")
     parser.add_argument("--epochs", type=int, default=200, help="Number of training epochs")
     parser.add_argument("--layer_type", type=str, default="TransformerConv", help="GNN inner layer, should be a valid torch_geometric.nn layer (Validated layers: GCNConv, GATConv, TransformerConv)")
