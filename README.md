@@ -1,5 +1,5 @@
 # Swarm-Net
-This repository contains the firmware, dataset, and attestation codes used in our paper `Swarm-Net: Firmware Attestation in IoT Swarms using Graph Neural Networks and Volatile Memory` submitted to the IEEE IoT Journal, which is currently available as a [preprint on arXiv](https://arxiv.org/abs/2408.05680). Our dataset [`IoT Swarm SRAM Dataset for Firmware Attestation`](https://dx.doi.org/10.21227/gmee-vj41) is available on IEEE Dataport. 
+This repository contains the firmware, dataset, and attestation codes used in our paper `Swarm-Net: Firmware Attestation in IoT Swarms using Graph Neural Networks and Volatile Memory` submitted to the IEEE IoT Journal, which is currently available as a [preprint on arXiv](https://arxiv.org/abs/2408.05680). Our published dataset is available on [IEEE Dataport](https://dx.doi.org/10.21227/gmee-vj41). 
 
 If you would like to use this work, kindly cite our preprint and dataset using the following BibTeX:
 
