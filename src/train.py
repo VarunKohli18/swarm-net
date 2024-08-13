@@ -158,7 +158,7 @@ if __name__ == "__main__":
 
     for i in range(1,NUM_NODES-1): A[i,i+1] = 1
     
-    if args.dataset_name == "swarm2": A[3,4] = 0
+    if args.dataset_name == "swarm-2": A[3,4] = 0
     
     EDGE_INDEX = torch.stack(torch.where(A==1))
 
@@ -292,7 +292,7 @@ if __name__ == "__main__":
     MAIN_ADR = np.stack(MAIN_ADR).mean(axis=0)
 
     from tabulate import tabulate
-    if args.dataset_name == "swarm1":
+    if args.dataset_name == "swarm-1":
         true_labels = [
             0,0,0,0,        # D1
             0,0,0,0,        # D2
