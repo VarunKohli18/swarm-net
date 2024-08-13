@@ -5,6 +5,18 @@ If you would like to use this work, kindly cite our preprint and dataset using t
 
 `Preprint`
 
+```\
+@misc{kohli2024swarmnetfirmwareattestationiot,
+      title={Swarm-Net: Firmware Attestation in IoT Swarms using Graph Neural Networks and Volatile Memory},
+      author={Varun Kohli and Bhavya Kohli and Muhammad Naveed Aman and Biplab Sikdar},
+      year={2024},
+      eprint={2408.05680},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2408.05680}, 
+}
+```
+
 `Dataset`
 
 ```\
