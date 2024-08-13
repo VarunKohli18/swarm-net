@@ -1,5 +1,5 @@
 # Swarm-Net
-This repository contains the firmware, dataset, and attestation codes used in our paper `Swarm-Net: Firmware Attestation in IoT Swarms using Graph Neural Networks and Volatile Memory` submitted to the IEEE IoT Journal, which is currently available as a [preprint on arXiv](https://arxiv.org/abs/2408.05680). Our published [dataset](https://ieee-dataport.org/documents/iot-swarm-sram-dataset-firmware-attestation) is available on IEEE Dataport. 
+This repository contains the firmware, dataset, and attestation codes used in our paper `Swarm-Net: Firmware Attestation in IoT Swarms using Graph Neural Networks and Volatile Memory` submitted to the IEEE IoT Journal, which is currently available as a [preprint on arXiv](https://arxiv.org/abs/2408.05680). Our published [dataset]( https://ieee-dataport.org/documents/iot-swarm-sram-dataset-firmware-attestation ) is available on IEEE Dataport. 
 
 If you would like to use this work, kindly cite our preprint and dataset using the following BibTeX:
 
@@ -37,7 +37,7 @@ The IoT device firmware for `swarm-1` and `swarm-2` are available in `./firmware
 `read_memory.ipynb` and `library.py` are used for data collection. They require a physical IoT swarm setup to run. 
 
 ## Data
-The compiled dataset is stored in `./data/swarm-sram-data.zip` and available on IEEE Dataport. Extract `swarm-1.pkl` and `swarm-2.pkl` from `swarm-sram-data.zip` into `./data` before running `./src/train.py`. Kindly refer to our preprint for more information on the dataset and its contents.
+The compiled dataset is stored in `./data/swarm-sram-data.zip` and available on IEEE Dataport. Extract `swarm-1.pkl` and `swarm-2.pkl` from `swarm-sram-data.zip` into `./data` before running `./src/train.py`. Please refer to our preprint for more information on the dataset and its contents.
 
 ## Attestation
 
